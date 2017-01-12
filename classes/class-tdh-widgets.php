@@ -32,7 +32,7 @@ class My_Widget extends WP_Widget {
 
         echo '<div class="textwidget">';
 
-        echo esc_html__( 'Hello, World!', 'text_domain' );
+        echo esc_html__( $instance['text'], 'text_domain' );
 
         echo '</div>';
 
